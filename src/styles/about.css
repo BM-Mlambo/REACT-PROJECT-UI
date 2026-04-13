@@ -1,0 +1,39 @@
+#about{
+    padding: 80px 60px;
+    text-align: center;
+    background-color: #f8fafc;
+}
+.title{
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #0f172a;
+}
+.subTitle{
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 50px;
+}
+.about-cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: white;
+    padding: 30px;
+    width: 300px;
+    border-radius: 12px;
+    text-align: left;
+}
+.card h3{
+    margin-bottom: 15px;
+    color: #38bdf8;
+}
+.card p{
+    color: gray;
+    line-height: 1.6;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
