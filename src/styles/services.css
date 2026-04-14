@@ -1,0 +1,36 @@
+#services{
+    padding: 80px 60px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.services-image{
+    flex: 1;
+}
+img{
+    width: 90%;
+    border-radius: 12px;
+}
+.services-content{
+    flex: 1;
+}
+.services-content h2{
+    color: darkblue;
+}
+.services-card{
+    background-color: #f8fafc;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.services-card h3{
+    color: #38bdf8;
+}
+.services-card p{
+    color:gray ;
+}
+.services-card:hover{
+    transform: translateX(10px);
+}
