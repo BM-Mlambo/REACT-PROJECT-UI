@@ -17,7 +17,7 @@ export default function Home() {
 
             </div>
             <div className="home-image">
-                <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dGVjaCUyMGNvbXBhbnl8ZW58MHx8MHx8fDA%3D"  />
+                <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dGVjaCUyMGNvbXBhbnl8ZW58MHx8MHx8fDA%3D" alt="img"  />
 
             </div>
 
