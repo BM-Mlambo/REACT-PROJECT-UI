@@ -1,4 +1,7 @@
 import "../styles/services.css"
+import { FiAirplay } from "react-icons/fi";
+import { FiLayers } from "react-icons/fi";
+import { FiUserCheck } from "react-icons/fi";
 export default function Services(){
     return(
         <section id="services">
@@ -8,16 +11,20 @@ export default function Services(){
 
                 </div>
                 <div className="services-content">
+
                     <h2>Our Services</h2>
                     <div className="services-card">
+                        <FiAirplay className="icon" />
                         <h3>Web development</h3>
                         <p>We build fast,responsive and modern website tailored to your business need</p>
                     </div>
                     <div className="services-card">
+                        <FiLayers className="icon" />
                         <h3>UI/UX Design</h3>
                         <p>We create beautiful and user friendly designes that enhance user experience</p>
                     </div>
                     <div className="services-card">
+                        <FiUserCheck className="icon" />
                         <h3>Consulting</h3>
                         <p>We provide expert advise to help you make the right technology decision.</p>
                     </div>

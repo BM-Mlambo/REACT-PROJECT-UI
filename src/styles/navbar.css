@@ -23,3 +23,7 @@
 .nav-links li:hover{
     color: brown;
 }
+.nav-links a{
+    text-decoration: none;
+    color: inherit;
+}

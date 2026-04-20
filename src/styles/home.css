@@ -5,6 +5,7 @@
     padding: 0 80px;
     gap: 60px;
     height: 100vh;
+    scroll-margin-top: 100px;
 }
 .home-content{
     flex: 1;

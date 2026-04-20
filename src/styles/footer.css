@@ -25,3 +25,7 @@
     font-size: 14px;
     color: #94a3b8;
 }
+.footer-links a{
+    text-decoration: none;
+    color: inherit;
+}

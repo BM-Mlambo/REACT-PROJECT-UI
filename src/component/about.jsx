@@ -1,4 +1,7 @@
 import "../styles/about.css"
+import { FiTarget } from "react-icons/fi";
+import { FaBiohazard } from "react-icons/fa";
+import { HiAcademicCap } from "react-icons/hi";
 export default function About(){
     return(
         <section id="about">
@@ -8,6 +11,8 @@ export default function About(){
             </p>
             <div className="about-cards">
                 <div className="card">
+                    <FiTarget className="icon" />
+
                     <h3>Our Mission</h3>
                     <p>To deliver high quality digital products that solve real world problems
                         and create meaningful impact.
@@ -15,10 +20,12 @@ export default function About(){
 
                 </div>
                 <div className="card">
+                    <FaBiohazard  className="icon"/>
                     <h3>Our Vision</h3>
                     <p>To become a leading technology campany known for innovation,excellence and customer satisfaction</p>
                 </div>
                 <div className="card">
+                    <HiAcademicCap className="icon" />
                     <h3>Our Values</h3>
                     <p>We believe in Integrity,Creativity, Colaboration, and continous improvement in everything we do.</p>
                 </div>

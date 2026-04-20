@@ -2,6 +2,7 @@
     padding: 80px 60px;
     text-align: center;
     background-color: #f8fafc;
+    scroll-margin-top: 100px;
 }
 .title{
     font-size: 36px;
@@ -36,4 +37,9 @@
 }
 .card:hover{
     transform: translateY(-10px);
+}
+.icon{
+    font-size: 40px;
+    color: #38bdf8;
+    margin-bottom: 15px;
 }
