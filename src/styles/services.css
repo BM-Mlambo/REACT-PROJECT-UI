@@ -35,3 +35,8 @@ img{
 .services-card:hover{
     transform: translateX(10px);
 }
+@media(max-width:768px){
+    .services-image{
+        display: none;
+    }
+}

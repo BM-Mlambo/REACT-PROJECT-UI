@@ -49,3 +49,8 @@
     max-width: 650px;
     border-radius: 16px;
 }
+@media(max-width:768px){
+    .home-image{
+        display: none;
+    }
+}

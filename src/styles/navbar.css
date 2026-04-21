@@ -27,3 +27,17 @@
     text-decoration: none;
     color: inherit;
 }
+@media(max-width:768px){
+    .navbar{
+        width: 100%;
+        padding: 10px 15px;
+    }
+    .logo{
+        font-size: 18px;
+    }
+    .nav-links{
+        font-size: 12px;
+        gap: 7px;
+        
+    }
+}
